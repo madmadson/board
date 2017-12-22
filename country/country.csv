@@ -1,0 +1,13 @@
+rank;avatar;name;text;text_quotation;income1;income2;income3;adventure;enemy1;amount_enemy1;enemy2;amount_enemy2;enemy3;amount_enemy3;enemy4;amount_enemy4
+../icons/rank1.png;grass.png;Astroh;Die weiten Ebenen von Astroh. Schon immer die Heimat der Banditen.;;2;0;0;1;Bandit;3;Robber;1;Gold;10;;
+../icons/rank1.png;grass.png;Molming;„Bauern soweit das Auge reicht, Nachschub für meine untote Horde“ ;Malakel, The Dark;2;0;0;0;Peasant;5;;;;;;
+../icons/rank1.png;grass.png;Umbaron;Umbaronische Mädchen sind die Schönsten;Unbekannter Soldat;2;0;0;0;Boar;3;;;;;;
+../icons/rank1.png;grass.png;Quir;Quir ist bekannt für seinen guten Wein;;4;0;0;0;;;;;;;;
+../icons/rank1.png;forest.png;Forest;;;0;0;0;1;;;;;;;;
+../icons/rank1.png;forest.png;Forest;;;2;0;0;0;;;;;;;;
+../icons/rank1.png;forest.png;Forest;;;2;0;0;0;;;;;;;;
+../icons/rank1.png;forest.png;Forest;;;4;0;0;0;;;;;;;;
+../icons/rank1.png;hills.png;Hills;;;0;0;0;1;;;;;;;;
+../icons/rank1.png;hills.png;Hills;;;2;0;0;0;;;;;;;;
+../icons/rank1.png;hills.png;Hills;;;2;0;0;0;;;;;;;;
+../icons/rank1.png;hills.png;Hills;;;4;0;0;0;;;;;;;;

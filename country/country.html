@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+    <link rel="stylesheet" type="text/css" href="country.css">
+</head>
+
+<body>
+    <div class="card">
+        <!-- YOUR CUSTOM CODE STARTS HERE -->
+        <div class="avatar-wrapper">
+            <img class="rank" src="{{rank}}"></img>
+            <img class="avatar" src="{{avatar}}"></img>
+            <div class="name">{{name}}</div>
+        </div>
+        <div class="carac">
+            <div class="iconcell">
+                <img class="icon" src="../icons/income1.png">{{income1}}
+            </div>
+            <div class="iconcell">
+                <img class="icon" src="../icons/income2.png">{{income2}}
+            </div>
+            <div class="iconcell">
+                <img class="icon" src="../icons/income3.png">{{income3}}
+            </div>
+            <div class="iconcell">
+                <img class="icon" src="../icons/adventure.png">{{adventure}}
+            </div>
+        </div>
+        <div class="text">{{text}} {{#text_quotation}}
+            <div class="text_quotation">- {{text_quotation}}</div>
+            {{/text_quotation}}
+        </div>
+        <div class="enemys">
+            <div class="enemy-row">
+                {{#enemy1}}
+                <div class="enemy-iconcell">
+                    <img class="enemy-image" src="{{enemy1}}.png"> {{amount_enemy1}}x {{enemy1}}
+                </div>
+                {{/enemy1}} {{#enemy2}}
+                <div class="enemy-iconcell">
+                    <img class="enemy-image" src="{{enemy2}}.png"> {{amount_enemy2}}x {{enemy2}}
+                </div>
+                {{/enemy2}} {{#enemy3}}
+                <div class="enemy-iconcell">
+                    <img class="enemy-image" src="{{enemy3}}.png"> {{amount_enemy3}}x {{enemy3}}
+                </div>
+                {{/enemy3}}
+            </div>
+            <div class="enemy-row">
+               {{#enemy4}}
+                <div class="enemy-iconcell">    
+                    <img class="enemy-image" src="{{enemy4}}.png"> {{amount_enemy4}}x {{enemy4}}
+                </div>
+                {{/enemy4}}
+                {{#enemy5}}
+                <div class="enemy-iconcell">
+                    <img class="enemy-image" src="{{enemy5}}.png"> {{amount_enemy5}}x {{enemy5}}
+                </div>
+                {{/enemy5}}
+                {{#enemy6}}
+                <div class="enemy-iconcell">
+                    <img class="enemy-image" src="{{enemy6}}.png"> {{amount_enemy6}}x {{enemy6}}
+                </div>
+                {{/enemy6}}
+            </div>
+        </div>
+        <!-- YOUR CUSTOM CODE ENDS HERE -->
+    </div>
+</body>
+
+</html>

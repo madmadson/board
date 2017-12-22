@@ -1,0 +1,20 @@
+rank;avatar;upgradeFromText;upgradeText;upgradeFrom;text;text_quotation;name;speed;attack;life;cost;cost2;abi1;abi2;abi3;abi4;abi5;abi6;abi7;abi8;abi9;abi10
+../icons/rank1.png;infantry.png;;;;„Die Präzission der Elfen sucht seines Gleichen“;Lord General Gylhor;Swordman;2;2;3;3;1;;;;;;;;;;
+../icons/rank1.png;infantry2.png;;;infantry.png;„Niemand kann sich mit den Elfen am Bogen messen“;King Bradley;Captain;2;3;5;5;1;;;;;;;;;;
+../icons/rank1.png;bowman.png;;;;Schnell wie die Hasen sind Sie, aber ihre Köpfe platzen unter meinem Streitkolben wie reife Melonen ;King Bradley;Bowman;2;2;2;3;1;Range;;;;;;;;;
+../icons/rank1.png;bowman2.png;;;bowman.png;Jahrhunderte voller Training zahlen sich aus;;Longbowman;2;3;3;10;1;;;;;;;;;;
+../icons/rank2.png;priest.png;;;;;;Priest;2;2;2;3;2;;;;;;;;;;
+../icons/rank2.png;priest2.png;;;priest.png;;;Arch Priest;2;2;3;5;2;;;;;;;;;;
+../icons/rank2.png;knight.png;;;;;;Knight;2;2;2;3;2;;;;;;;;;;
+../icons/rank2.png;knight2.png;;;knight.png;;;Paladin;2;2;3;5;2;;;;;;;;;;
+../icons/rank3.png;gryphon.png;;;;;;Griffon;2;2;2;3;3;;;;;;;;;;
+../icons/rank3.png;gryphon2.png;;;gryphon.png;;;Arch Gryphon;2;2;3;30;3;;;;;;;;;;
+../icons/rankHero.png;infantry.png;;;;;;;;;;;;;;;;;;;;;
+../icons/rankHero.png;infantry.png;;;;;;;;;;;;;;;;;;;;;
+../icons/rankHero.png;infantry.png;;;;;;;;;;;;;;;;;;;;;
+../icons/rankHero.png;infantry.png;;;;;;;;;;;;;;;;;;;;;
+../icons/rankHero.png;infantry.png;;;;;;;;;;;;;;;;;;;;;
+../icons/rankHero.png;infantry.png;;;;;;;;;;;;;;;;;;;;;
+../icons/rankHero.png;infantry.png;;;;;;;;;;;;;;;;;;;;;
+../icons/rankHero.png;infantry.png;;;;;;;;;;;;;;;;;;;;;
+../icons/rankHero.png;infantry.png;;;;;;;;;;;;;;;;;;;;;

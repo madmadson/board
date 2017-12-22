@@ -1,0 +1,132 @@
+.card {
+    margin: 0.5mm;
+    border-style: solid;
+    border-width: 0.8mm;
+    border-color: black;
+    border-radius: 6mm;
+    width: 63mm;
+    height: 88mm;
+    background-color: grey
+}
+
+.avatar-wrapper {
+    display: flex;
+    margin-top: 2mm;
+    margin-left: 2mm;
+    width: 58mm;
+}
+
+.rank {
+    width: 9mm;
+    height: 7mm;
+}
+
+.avatar {
+    position: relative; 
+    right: 2mm;
+    float: left;
+    margin: 1.1mm;
+    padding: -5mm;
+    width: 20mm;
+    height: 20mm;
+}
+
+.name {
+    position: relative; 
+    right: 4mm;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: bold;
+    font-size: 16pt;
+    white-space: nowrap;
+}
+
+.upgrade-wrapper {
+    width: 58mm;
+    height: 0;
+}
+
+.upgrade-from {
+    width: 10mm;
+    height: 10mm;
+    position: relative; 
+    left: 22mm;
+    bottom: 15mm;
+}
+
+
+.upgrade-icon {
+    margin-top: 2mm; 
+    width: 6mm;
+    height: 6mm;
+    position: relative; 
+    left: 36mm;
+    bottom: 20mm;
+}
+
+.icon {
+    width: 7mm;
+    height: 7mm;
+    vertical-align: text-bottom;
+    margin: 1mm;
+}
+
+.iconcell {
+    padding: 0.5mm;
+    margin-right: 1mm;
+}
+
+.text {
+    position: relative;
+    font-family: "Arial";
+    font-size: 11pt;
+    margin: 1mm 0mm 1mm 2mm;
+    padding: 2mm;
+    background-color: rgb(114, 114, 114);
+    border: solid black;
+    border-radius: 2mm;
+    position: relative;
+    height: 32.5mm;
+    width: 32mm;
+}
+
+.carac {
+    position: relative;
+    top: -15mm;
+    float: right;
+    margin: 1mm 2mm 1mm 0mm;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 16pt;
+    border: solid black;
+    border-radius: 2mm;
+    background-color: rgb(114, 114, 114);
+    width: 18mm;
+}
+
+.abilitys {
+   display: flex;
+   justify-content: center;
+   float: left;
+   background-color: rgb(114, 114, 114);
+   border: solid black ;
+   border-radius: 2mm;
+   height: 16mm;
+   width: 54mm;
+   overflow:hidden;
+   margin: 1mm 2mm 2mm 2mm;
+   position: relative;
+   padding: 1mm;
+   bottom: 15mm;
+}
+
+.abi-icon {
+    width: 7mm;
+    height: 7mm;
+    vertical-align: text-bottom;
+    margin: 0 1mm;
+}
+
+.abi-iconcell {
+    padding: 0.5mm;
+    margin-right: 1mm;
+}

@@ -1,0 +1,19 @@
+rank;avatar;upgradeFromText;upgradeText;upgradeFrom;text;text_quotation;name;speed;attack;life;cost;cost2;abi1;abi2;abi3;abi4;abi5;abi6
+../icons/rank1.png;archer.png;;;;„Die Präzission der Elfen sucht seines Gleichen“;Lord General Gylhor;Archer;4;3;2;6;0;Range;;;;;
+../icons/rank1.png;sharpshooter.png;;;archer.png;„Niemand kann sich mit den Elfen am Bogen messen“;King Bradley;Sharpshooter;4;3;2;10;1;Range;Scout;Pierce1;;;
+../icons/rank1.png;fighter.png;;;;Schnell wie die Hasen sind Sie, aber ihre Köpfe platzen unter meinem Streitkolben wie reife Melonen ;King Bradley;Fighter;4;3;2;4;1;Armour1;;;;;
+../icons/rank1.png;warrior.png;;;fighter.png;Jahrhunderte voller Training zahlen sich aus;;Warrior;4;4;3;10;1;Armour1;Dual;;;;
+../icons/rank1.png;marschal.png;;;;;;Leader;3;2;2;10;1;Lead2;Armour1;;;;
+../icons/rank1.png;captain.png;;;marschal.png;;;Captain;3;2;3;10;1;Lead2;Armour1;;;;
+../icons/rank2.png;druid.png;;;;;;Druid;2;1;1;10;1;Heal1;;;;;
+../icons/rank2.png;shyde.png;;;;;;Faerie;2;3;1;10;1;Heal1;;;;;
+../icons/rank3.png;wose.png;;;;;;Treeman;1;4;6;15;1;Armour3;;;;;
+../icons/rankHero.png;gylphor.png;;Leader;;;;Gylphor;3;2;4;-;-;Lead3;Armour2;;;;
+../icons/rankHero.png;sylvana.png;;Healer;;;;Sylvana;3;2;2;-;-;Lead2;Heal1;Range;Magic;;
+../icons/rankHero.png;lydor.png;;Killer;;;;Lydor;4;4;2;-;-;Lead2;;;;;
+../icons/rankHero.png;gylphor.png;Leader;General;;;;Gylphor;3;2;4;-;-;Lead3;Armour2;;;;
+../icons/rankHero.png;sylvana.png;Healer;Mistress;;;;Sylvana;3;2;2;-;-;Lead2;Caster;Heal2;Range;Magic;
+../icons/rankHero.png;lydor.png;Killer;Assassine;;;;Lydor;4;4;2;-;-;Lead2;Pierce;;;;
+../icons/rankHero.png;gylphor.png;General;Lord General;;;;Gylphor;3;2;4;-;-;Lead5;Armour3;;;;
+../icons/rankHero.png;sylvana.png;Mistress;Arch Mistress;;;;Sylvana;4;2;2;-;-;Lead3;Caster2;Heal3;Range;Magic;
+../icons/rankHero.png;lydor.png;Assassine;Master Assassine;;;;Lydor;5;5;3;-;-;Lead3;Pierce;Hide;Poison;;

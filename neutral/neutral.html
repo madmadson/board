@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+    <link rel="stylesheet" type="text/css" href="neutral.css">
+</head>
+
+<body>
+    <div class="card">
+        <!-- YOUR CUSTOM CODE STARTS HERE -->
+        <div class="avatar-wrapper">
+            <img class="rank" src="{{rank}}"></img>
+            <img class="avatar" src="{{avatar}}"></img>
+            <div class="name">{{name}}</div>
+        </div>
+        <div class="upgrade-wrapper">
+            {{#upgradeFrom}}
+            <img class="upgrade-icon" src="../icons/upgrade-color.png">
+            <img class="upgrade-from" src="{{upgradeFrom}}"></img>
+            {{/upgradeFrom}} {{#upgradeFromText}}
+            <div class="upgrade-from-text">{{upgradeFromText}} -></div>
+            {{/upgradeFromText}} {{#upgradeText}}
+            <div class="upgrade-text">{{upgradeText}}</div>
+            {{/upgradeText}}
+        </div>
+        <div class="carac">
+            <div class="iconcell">
+                <img class="icon" src="../icons/speed.png">{{speed}}
+            </div>
+            <div class="iconcell">
+                <img class="icon" src="../icons/attack.png">{{attack}}
+            </div>
+            <div class="iconcell">
+                <img class="icon" src="../icons/life.png">{{life}}
+            </div>
+            <div class="iconcell">
+                <img class="icon" src="../icons/cost.png">{{cost}}
+            </div>
+            <div class="iconcell">
+                <img class="icon" src="../icons/cost2.png">{{cost2}}
+            </div>
+        </div>
+        <div class="text">{{text}} {{#text_quotation}}
+            <div class="text_quotation">- {{text_quotation}}</div>
+            {{/text_quotation}}
+        </div>
+        <div class="abilitys">
+            <div class="abilitys-row">
+                {{#abi1}}
+                <div class="abi-iconcell">
+                    <img class="abi-icon" src="../icons/{{abi1}}.png"> {{abi1}}
+                </div>
+                {{/abi1}} {{#abi2}}
+                <div class="abi-iconcell">
+                    <img class="abi-icon" src="../icons/{{abi2}}.png"> {{abi2}}
+                </div>
+                {{/abi2}}
+            </div>
+            <div class="abilitys-row">
+                {{#abi3}}
+                <div class="abi-iconcell">
+                    <img class="abi-icon" src="../icons/{{abi3}}.png"> {{abi3}}
+                </div>
+                {{/abi3}} {{#abi4}}
+                <div class="abi-iconcell">
+                    <img class="abi-icon" src="../icons/{{abi4}}.png"> {{abi4}}
+                </div>
+                {{/abi4}}
+            </div>
+            <div class="abilitys-row">
+                {{#abi5}}
+                <div class="abi-iconcell">
+                    <img class="abi-icon" src="../icons/{{abi5}}.png"> {{abi5}}
+                </div>
+                {{/abi5}} {{#abi6}}
+                <div class="abi-iconcell">
+                    <img class="abi-icon" src="../icons/{{abi6}}.png"> {{abi6}}
+                </div>
+                {{/abi6}}
+            </div>
+            <div class="abilitys-row">
+                {{#abi7}}
+                <div class="abi-iconcell">
+                    <img class="abi-icon" src="../icons/{{abi7}}.png"> {{abi7}}
+                </div>
+                {{/abi7}} {{#abi8}}
+                <div class="abi-iconcell">
+                    <img class="abi-icon" src="../icons/{{abi8}}.png"> {{abi8}}
+                </div>
+                {{/abi8}}
+            </div>
+            <div class="abilitys-row">
+                {{#abi9}}
+                <div class="abi-iconcell">
+                    <img class="abi-icon" src="../icons/{{abi9}}.png"> {{abi9}}
+                </div>
+                {{/abi9}} {{#abi10}}
+                <div class="abi-iconcell">
+                    <img class="abi-icon" src="../icons/{{abi10}}.png"> {{abi10}}
+                </div>
+                {{/abi10}}
+            </div>
+        </div>
+        <!-- YOUR CUSTOM CODE ENDS HERE -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+rank;avatar;upgradeFromText;upgradeText;upgradeFrom;text;text_quotation;name;speed;attack;life;cost;cost2;abi1;abi2;abi3;abi4;abi5;abi6
+../icons/rank1.png;peasant.png;;;;„Schlachtvieh“;Necromancer;Peasant;2;1;2;2;0;Unlucky;;;;;
+../icons/rank1.png;boar.png;;;;;;Boar;3;2;3;-;-;Armour1;Rage;;;;
+../icons/rank1.png;scorpion.png;;;;;;Scorpion;3;3;2;-;-;Armour2;;;;;
+../icons/rank1.png;robber.png;;;;„Es gibt wenig nerfigeres, als Banditen mit Bögen“;General Husk;Robber;3;2;2;4;0;Range;;;;;
+../icons/rank1.png;rouge.png;;;robber.png;;;Rogue;3;3;2;6;-;Range;Robber;;;;
+../icons/rank1.png;bandit.png;;;;Habgier und Verzweiflung ist des Weg der Banditen.;;Bandit;3;2;2;4;0;Armour1;;;;;
+../icons/rank2.png;golem.png;;;;;;Golem;1;4;5;10;0;Armour3;;;;;
+../icons/rank2.png;airElemental.png;;;;;;Air Elemental;5;4;2;-;-;;;;;;
+../icons/rank2.png;waterElemental.png;;;;;;Water Elemental;3;2;4;-;-;;;;;;
+../icons/rank2.png;fireElemental.png;;;;;;Fire Elemental;3;5;4;-;-;;;;;;
+../icons/rank2.png;earthElemental.png;;;;;;Earth Elemental;1;3;10;-;-;Armour3;;;;;
+../icons/rank2.png;yeti.png;;;;;;Yeti;3;5;4;10;0;;;;;;
+../icons/rank2.png;ogre.png;;;;;;Ogre;3;3;3;10;0;;;;;;
+../icons/rank2.png;minotaur.png;;;;;;Minotaur;2;5;5;10;0;Armour1;;;;;
+../icons/rank3.png;redDragon.png;;;;;;RedDragon;2;10;8;50;5;;;;;;
+../icons/rank3.png;fireDragon.png;;;redDragon.png;;;FlameDragon;2;10;10;80;10;;;;;;
+../icons/rank3.png;goblin.png;;;;;;Goblin;3;1;1;2;0;;;;;;
+../icons/rank3.png;greenDragon.png;;;;;;Green Dragon;2;8;10;50;5;;;;;;
+../icons/rank3.png;goldDragon.png;;;greenDragon.png;;;Gold Dragon;2;12;10;50;5;;;;;;
