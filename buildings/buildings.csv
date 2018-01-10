@@ -1,10 +1,11 @@
-rank;avatar;upgradeFrom;name;attack;income;income2;cost;cost2;abi1;abi2;abi3;abi4;abi5;abi6
-../icons/rank1.png;iHouse.png;;Farm;0;5;0;5;0;;;;;;
-../icons/rank1.png;magicPortal.png;;Summoning;0;0;0;5;0;;;;;;
-../icons/rank1.png;basicTower.png;;Basic Tower;1;0;0;5;0;sharpshot;;;;;
-../icons/rank2.png;iMine.png;iHouse.png;Goldmine;0;20;0;20;0;;;;;;
-../icons/rank2.png;magicGate.png;magicPortal.png;Portal;0;0;0;20;0;;;;;;
-../icons/rank2.png;fireTower.png;basicTower.png;FireTower;3;0;0;20;0;sharpshot;flame;;;;
-../icons/rank3.png;crystalMine.png;iMine.png;CrystalMine;0;10;2;50;0;;;;;;
-../icons/rank3.png;starGate.png;magicGate.png;StarGate;0;0;0;40;1;;;;;;
-../icons/rank3.png;castle.png;fireTower.png;Castle;5;0;0;40;1;sharpshot;;;;;
+rank;avatar;upgradeFrom;name;left-abi1;left-abi2;left-abi3;right-abi1;right-abi2;right-abi3;abi1;abi2;abi3;abi4;abi5;abi6;abi7;abi8;cost1;cost2
+rank1;farm;;Farm;income5;;;;;;;;;;;;;;cost10;
+rank1u;windmill;farm;Windmill;income10;;;;;;;;;;;;;;cost20;
+rank1;portal1;;Portal I;;;;;;;;;;;;;;;cost10;
+rank2;mine;;Mine;income10;income2-1;;;;;;;;;;;;;cost10;
+rank2;waterCrystal;;Water Crystalize;incomeWater;;;;;;;;;;;;;;;
+rank2;fireCrystal;;Fire Crystalize;incomeFire;;;;;;;;;;;;;;;
+rank2;earthCrystal;;Earth Crystalize;incomeEarth;;;;;;;;;;;;;;;
+rank2;windCrystal;;Wind Crystalize;incomeWind;;;;;;;;;;;;;;;
+rank2;goldCrystal;;Gold Crystalize;incomeGold;;;;;;;;;;;;;;;
+rank2;deathCrystal;;Death Crystalize;incomeDeath;;;;;;;;;;;;;;;

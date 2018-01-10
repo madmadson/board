@@ -9,92 +9,96 @@
 <body>
     <div class="card">
         <!-- YOUR CUSTOM CODE STARTS HERE -->
-        <div class="avatar-wrapper">
-            <img class="rank" src="{{rank}}"></img>
-            <img class="avatar" src="{{avatar}}"></img>
-            <div class="name">{{name}}</div>
-        </div>
-        <div class="upgrade-wrapper">
-            {{#upgradeFrom}}
-            <img class="upgrade-icon" src="../icons/upgrade-color.png">
-            <img class="upgrade-from" src="{{upgradeFrom}}"></img>
-            {{/upgradeFrom}}
-        </div>
-        <div class="carac">
-            <div class="iconcell">
-                <img class="icon" src="../icons/attack.png">{{attack}}
-            </div>
-            <div class="iconcell">
-                <img class="icon" src="../icons/income.png">{{income}}
-            </div>
-            <div class="iconcell">
-                <img class="icon" src="../icons/income2.png">{{income2}}
-            </div>
-            <div class="iconcell">
-                <img class="icon" src="../icons/cost.png">{{cost}}
-            </div>
-            <div class="iconcell">
-                <img class="icon" src="../icons/cost2.png">{{cost2}}
-            </div>
-        </div>
-        <div class="text">Hi</div>
-        <div class="abilitys">
-            <div class="abilitys-row">
-                {{#abi1}}
-                <div class="iconcell">
-                    <img class="abi-icon" src="../icons/{{abi1}}.png">
+        <div class="name">{{name}}</div>
+        <div class="second-row-wrapper">
+                <div class="offense">
+                    {{#left-abi1}}
+                    <div class="att-iconcell">
+                        <img class="att-icon" src="../icons/{{left-abi1}}.png">
+                    </div>
+                    {{/left-abi1}} {{#left-abi2}}
+                    <div class="att-iconcell">
+                        <img class="att-icon" src="../icons/{{left-abi2}}.png">
+                    </div>
+                    {{/left-abi2}} {{#left-abi3}}
+                    <div class="att-iconcell">
+                        <img class="att-icon" src="../icons/{{left-abi3}}.png">
+                    </div>
+                    {{/left-abi3}}
                 </div>
-                {{/abi1}} {{#abi2}}
-                <div class="iconcell">
-                    <img class="abi-icon" src="../icons/{{abi2}}.png">
+                <div class="avatar-wrapper">
+                    <img class="rank" src="../icons/{{rank}}.png"></img>
+                    <img class="avatar" src="../building_images/{{avatar}}.png"></img>
+                    {{#upgradeFrom}}
+                    <img class="upgrade-from" src="../building_images/{{upgradeFrom}}.png"></img>
+                    {{/upgradeFrom}}
+    
                 </div>
-                {{/abi2}}
+                <div class="defense">
+                    {{#right-abi1}}
+                    <div class="def-iconcell">
+                        <img class="def-icon" src="../icons/{{right-abi1}}.png">
+                    </div>
+                    {{/right-abi1}} {{#right-abi2}}
+                    <div class="def-iconcell">
+                        <img class="def-icon" src="../icons/{{right-abi2}}.png">
+                    </div>
+                    {{/right-abi2}} {{#right-abi3}}
+                    <div class="def-iconcell">
+                        <img class="def-icon" src="../icons/{{right-abi3}}.png">
+                    </div>
+                    {{/right-abi3}}
+                </div>
             </div>
-            <div class="abilitys-row">
-                {{#abi3}}
-                <div class="iconcell">
-                    <img class="abi-icon" src="../icons/{{abi3}}.png">
+            <div class="abi-wrapper">
+                <div class="abilitys-row">
+                    {{#abi1}}
+                    <div class="abi-iconcell">
+                        <img class="abi-icon" src="../icons/{{abi1}}.png">
+                    </div>
+                    {{/abi1}} {{#abi2}}
+                    <div class="abi-iconcell">
+                        <img class="abi-icon" src="../icons/{{abi2}}.png">
+                    </div>
+                    {{/abi2}}{{#abi3}}
+                    <div class="abi-iconcell">
+                        <img class="abi-icon" src="../icons/{{abi3}}.png">
+                    </div>
+                    {{/abi3}} {{#abi4}}
+                    <div class="abi-iconcell">
+                        <img class="abi-icon" src="../icons/{{abi4}}.png">
+                    </div>
+                    {{/abi4}}
                 </div>
-                {{/abi3}} {{#abi4}}
-                <div class="iconcell">
-                    <img class="abi-icon" src="../icons/{{abi4}}.png">
+                <div class="abilitys-row">
+                    {{#abi5}}
+                    <div class="abi-iconcell">
+                        <img class="abi-icon" src="../icons/{{abi5}}.png">
+                    </div>
+                    {{/abi5}} {{#abi6}}
+                    <div class="abi-iconcell">
+                        <img class="abi-icon" src="../icons/{{abi6}}.png">
+                    </div>
+                    {{/abi6}} {{#abi7}}
+                    <div class="abi-iconcell">
+                        <img class="abi-icon" src="../icons/{{abi7}}.png">
+                    </div>
+                    {{/abi7}} {{#abi8}}
+                    <div class="abi-iconcell">
+                        <img class="abi-icon" src="../icons/{{abi7}}.png">
+                    </div>
+                    {{/abi8}}
                 </div>
-                {{/abi4}}
             </div>
-            <div class="abilitys-row">
-                {{#abi5}}
-                <div class="iconcell">
-                    <img class="abi-icon" src="../icons/{{abi5}}.png">
+            <div class="footer-row">
+                <div class="footer-iconcell">
+    
+                    {{#cost1}}
+                    <img class="footer-icon" src="../icons/{{cost1}}.png"> {{/cost1}} {{#cost2}}
+                    <img class="footer-icon" src="../icons/{{cost2}}.png">{{cost2}} {{/cost2}}
+    
                 </div>
-                {{/abi5}} {{#abi6}}
-                <div class="iconcell">
-                    <img class="abi-icon" src="../icons/{{abi6}}.png">
-                </div>
-                {{/abi6}}
             </div>
-            <div class="abilitys-row">
-                {{#abi7}}
-                <div class="iconcell">
-                    <img class="abi-icon" src="../icons/{{abi7}}.png">
-                </div>
-                {{/abi7}} {{#abi8}}
-                <div class="iconcell">
-                    <img class="abi-icon" src="../icons/{{abi8}}.png">
-                </div>
-                {{/abi8}}
-            </div>
-            <div class="abilitys-row">
-                {{#abi9}}
-                <div class="iconcell">
-                    <img class="abi-icon" src="../icons/{{abi9}}.png">
-                </div>
-                {{/abi9}} {{#abi10}}
-                <div class="iconcell">
-                    <img class="abi-icon" src="../icons/{{abi10}}.png">
-                </div>
-                {{/abi10}}
-            </div>
-        </div>
         <!-- YOUR CUSTOM CODE ENDS HERE -->
     </div>
 </body>

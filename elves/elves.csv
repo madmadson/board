@@ -1,19 +1,14 @@
-rank;avatar;upgradeFromText;upgradeText;upgradeFrom;text;text_quotation;name;speed;attack;life;cost;cost2;abi1;abi2;abi3;abi4;abi5;abi6
-../icons/rank1.png;archer.png;;;;„Die Präzission der Elfen sucht seines Gleichen“;Lord General Gylhor;Archer;4;3;2;6;0;Range;;;;;
-../icons/rank1.png;sharpshooter.png;;;archer.png;„Niemand kann sich mit den Elfen am Bogen messen“;King Bradley;Sharpshooter;4;3;2;10;1;Range;Scout;Pierce1;;;
-../icons/rank1.png;fighter.png;;;;Schnell wie die Hasen sind Sie, aber ihre Köpfe platzen unter meinem Streitkolben wie reife Melonen ;King Bradley;Fighter;4;3;2;4;1;Armour1;;;;;
-../icons/rank1.png;warrior.png;;;fighter.png;Jahrhunderte voller Training zahlen sich aus;;Warrior;4;4;3;10;1;Armour1;Dual;;;;
-../icons/rank1.png;marschal.png;;;;;;Leader;3;2;2;10;1;Lead2;Armour1;;;;
-../icons/rank1.png;captain.png;;;marschal.png;;;Captain;3;2;3;10;1;Lead2;Armour1;;;;
-../icons/rank2.png;druid.png;;;;;;Druid;2;1;1;10;1;Heal1;;;;;
-../icons/rank2.png;shyde.png;;;;;;Faerie;2;3;1;10;1;Heal1;;;;;
-../icons/rank3.png;wose.png;;;;;;Treeman;1;4;6;15;1;Armour3;;;;;
-../icons/rankHero.png;gylphor.png;;Leader;;;;Gylphor;3;2;4;-;-;Lead3;Armour2;;;;
-../icons/rankHero.png;sylvana.png;;Healer;;;;Sylvana;3;2;2;-;-;Lead2;Heal1;Range;Magic;;
-../icons/rankHero.png;lydor.png;;Killer;;;;Lydor;4;4;2;-;-;Lead2;;;;;
-../icons/rankHero.png;gylphor.png;Leader;General;;;;Gylphor;3;2;4;-;-;Lead3;Armour2;;;;
-../icons/rankHero.png;sylvana.png;Healer;Mistress;;;;Sylvana;3;2;2;-;-;Lead2;Caster;Heal2;Range;Magic;
-../icons/rankHero.png;lydor.png;Killer;Assassine;;;;Lydor;4;4;2;-;-;Lead2;Pierce;;;;
-../icons/rankHero.png;gylphor.png;General;Lord General;;;;Gylphor;3;2;4;-;-;Lead5;Armour3;;;;
-../icons/rankHero.png;sylvana.png;Mistress;Arch Mistress;;;;Sylvana;4;2;2;-;-;Lead3;Caster2;Heal3;Range;Magic;
-../icons/rankHero.png;lydor.png;Assassine;Master Assassine;;;;Lydor;5;5;3;-;-;Lead3;Pierce;Hide;Poison;;
+rank;avatar;upgradeFrom;name;att-abi1;att-abi2;att-abi3;def-abi1;def-abi2;def-abi3;abi1;abi2;abi3;abi4;abi5;abi6;abi7;abi8;cost;cost2;power
+rank1;archer;;Archer;mellee1;range3;siege0;life2;armour0;resistence0;;;;;;;;;6;;power1
+rank1u;sharpshooter;archer;Sharpshooter;mellee1;range4;siege0;life2;armour0;resistence0;;;;;;;;;10;1;power1
+rank1;fighter;;Fighter;mellee3;range0;siege0;life2;armour0;resistence0;;;;;;;;;4;;power1
+rank1u;protector;fighter;Protector;mellee4;range0;siege0;life3;armour0;resistence0;;;;;;;;;10;1;power1
+rank1;marschal;;Leader;mellee3;range0;siege0;life2;armour0;resistence0;;;;;;;;;10;1;power2
+rank1u;captain;marschal;Captain;mellee3;range0;siege0;life2;armour0;resistence0;;;;;;;;;10;1;power2
+rank2;druid;;Druid;mellee1;range0;siege1;life2;armour0;resistence0;heal1;magic;;;;;;;10;2;power2
+rank2u;shyde;;Faerie;mellee1;range0;siege2;life6;armour0;resistence0;heal2;magic;;;;;;;10;2;power2
+rank3;treeman;;Treeman;mellee5;range0;siege1;life8;armour3;resistence3;slow;flammable;;;;;;;15;1;power3
+rank3u;elder-tree;treeman;Elder Tree;mellee5;range0;siege2;life10;armour3;resistence3;slow;flammable;;;;;;;15;3;power3
+rankHero;gylphor;;Gylphor;mellee3;range0;siege0;life4;armour2;resistence1;lead4;;;;;;;;;;power3
+rankHero;sylvana;;Sylvana;mellee2;range0;siege2;life3;armour0;resistence2;lead3;heal1;magic;;;;;;;;power3
+rankHero;lydor;;Lydor;mellee4;range0;siege0;life3;armour1;resistence1;lead3;fast;;;;;;;;;power4

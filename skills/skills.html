@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+    <link rel="stylesheet" type="text/css" href="skills.css">
+</head>
+
+<body>
+    <div class="card">
+        <!-- YOUR CUSTOM CODE STARTS HERE -->
+        <div class="mini-card-name">{{name}}</div>
+
+        <div class="abi-wrapper">
+                <div class="abi-row">
+                        {{#text}}
+                        {{/text}}
+                        {{#abi1}}
+                        <div class="abi-iconcell">
+                            <img class="abi-icon" src="../icons/{{abi1}}.png">
+                        </div>
+                        {{/abi1}} {{#abi2}}
+                        <div class="abi-iconcell">
+                            <img class="abi-icon" src="../icons/{{abi2}}.png">
+                        </div>
+                        {{/abi2}}
+                    </div>
+        </div>
+        <div class="footer-row">
+            <div class="footer-iconcell">
+                {{#precondition}}
+                    <span class="precondition-label">{{precondition}}</span>
+                {{/precondition}}
+                {{#hero}}
+                    <img class="hero-icon" src="../hero_images/{{hero}}.png">
+                {{/hero}}   
+            </div>
+        </div> 
+    </div>
+</body>
+
+</html>

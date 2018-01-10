@@ -6,159 +6,143 @@
     border-radius: 6mm;
     width: 63mm;
     height: 88mm;
-    background-color: rgb(43, 184, 21);
-}
-
-.avatar-wrapper {
-    display: flex;
-    margin-top: 2mm;
-    margin-left: 2mm;
-    width: 58mm;
-}
-
-.rank {
-    width: 9mm;
-    height: 7mm;
-}
-
-.avatar {
-    position: relative; 
-    right: 8mm;
-    float: left;
-    margin: 1.1mm;
-    padding: -5mm;
-    width: 20mm;
-    height: 20mm;
+    background-image: url(../borders/card-border.png);
 }
 
 .name {
     position: relative; 
-    right: 12mm;
+    top: 3mm;
+    left: 12mm;
+    width: 40mm;
     font-family: 'Berkshire Swash', cursive;
     font-weight: bold;
     font-size: 16pt;
+    text-align: center;
     white-space: nowrap;
 }
 
-.upgrade-wrapper {
-    width: 58mm;
-    height: 0;
+.second-row-wrapper{
+    display: flex;
+}
 
+.offense {
+    position: relative; 
+    top: 5mm;
+    left: 3mm;
+    border: solid black;
+    border-radius: 2mm;
+    width: 13mm;
+    height: 28mm;
+}
+
+.att-iconcell {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.att-icon {
+    width: 10mm;
+    height: 10mm;
+}
+
+.avatar-wrapper {
+    position: relative; 
+    top: 5mm;
+    left: 4mm;
+    width: 26mm;
+    height: 26mm;
+    background-color: rgb(10, 136, 37);
+    background-image: url(../borders/avatar-border.png);
+}
+
+.rank {
+    position: relative; 
+    width: 12mm;
+    height: 12mm;
+    top:1mm;
+    left: 15mm;
+}
+
+.avatar {
+    position: relative; 
+    width: 25mm;
+    height: 25mm;
+    bottom: 12mm;
+    right: 2mm;
 }
 
 .upgrade-from {
-    margin-top: 2mm;
-    margin-left: 2mm;
-    width: 15mm;
-    height: 15mm;
     position: relative; 
-    left: 12mm;
-    bottom: 15mm;
+    width: 12mm;
+    height: 12mm;
+    left: 15mm;
+    bottom: 25mm;
 }
 
-.upgrade-icon {
-    margin-top: 2mm;
-    margin-left: 2mm;
-    width: 6mm;
-    height: 6mm;
+.defense {
     position: relative; 
-    left: 30mm;
-    bottom: 24mm;
-}
-
-.upgrade-text {
-    position: relative; 
-    left: 22mm;
-    bottom: 14mm;
-    width: 15mm;
-    font-family: 'Berkshire Swash', cursive;
-}
-
-.upgrade-from-text {
-    position: relative; 
-    left: 22mm;
-    bottom: 14mm;
-    width: 15mm;
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 0.6em;
-    font-weight: lighter;
-}
-
-
-.icon {
-    width: 7mm;
-    height: 7mm;
-    vertical-align: text-bottom;
-    margin: 1mm;
-}
-
-.iconcell {
-    padding: 0.5mm;
-    margin-right: 1mm;
-}
-
-.text {
-    position: relative;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.8em;
-    margin: 1mm 0mm 1mm 2mm;
-    padding: 2mm;
-    background-color: rgb(10, 136, 37);
+    top: 5mm;
+    left: 5mm;
     border: solid black;
     border-radius: 2mm;
-    position: relative;
-    height: 32.5mm;
-    width: 32mm;
+    width: 13mm;
 }
 
-.text_quotation {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 0.6em;
-}
-
-.carac {
-    position: relative;
-    top: -15mm;
-    float: right;
-    margin: 1mm 2mm 1mm 0mm;
-    font-family: "Arial";
-    font-weight: bold;
-    font-size: 16pt;
-    border: solid black;
-    border-radius: 2mm;
-    background-color: rgb(114, 114, 114);
-    width: 18mm;
-}
-
-.abilitys {
-   display: flex;
-   justify-content: center;
-   float: left;
-   background-color: rgb(10, 136, 37);
-   border: solid black ;
-   border-radius: 2mm;
-   height: 16mm;
-   width: 54mm;
-   overflow:hidden;
-   margin: 1mm 2mm 2mm 2mm;
-   padding: 1mm;
-   position: relative;
-   bottom: 15mm;
-}
-
-.abi-iconcell {
-    padding: 0.5mm;
-    margin-right: 1mm;
+.def-iconcell {
     font-size: 0.6em;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.def-icon {
+    width: 10mm;
+    height: 10mm;
+}
+
+.abi-wrapper {
+    position: relative; 
+    top: 6mm;
+    left: 2.5mm;
+    width: 58mm;
+    height: 33mm;
+    background-image: url(../borders/abi-border.png);
+}
+
+.abilitys-row{
+    display: flex;
+}
+
+.abi-iconcell {
+    position: relative; 
+    top: 5mm;
+    left: 5mm;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: start;
+}
 
 .abi-icon {
-    width: 7mm;
-    height: 7mm;
-    vertical-align: text-bottom;
-    margin: 0 1mm;
+    width: 12mm;
+    height: 12mm;
+    vertical-align: middle;
+}
+
+.footer-row {
+    position: relative; 
+    top: 5mm;
+    right: 8mm;
+}
+.footer-iconcell {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: end;
+}
+
+.footer-icon {
+    width: 10mm;
+    height: 10mm;
+    vertical-align: middle;
+    margin-left: -2mm;
 }

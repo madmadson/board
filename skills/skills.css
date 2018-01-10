@@ -1,0 +1,80 @@
+
+/* mini card */
+.card {
+    margin: 0.5mm;
+    border-style: solid;
+    border-width: 0.8mm;
+    border-color: black;
+    border-radius: 6mm;
+    width: 45mm;
+    height: 64mm;
+    background-image: url(../borders/mini-card-border.png);
+}
+
+.mini-card-name {
+    position: relative; 
+    top: 3mm;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.abi-wrapper {
+    position: relative; 
+    top: 6mm;
+    left: 4mm;
+    width: 38mm;
+    height: 33mm;
+    background-image: url(../borders/mini-abi-border.png);
+}
+
+.abi-row {
+    display: flex;
+    justify-content: center;
+}
+
+.abi-iconcell {
+    position: relative; 
+    top: 5mm;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: start;
+}
+
+.abi-icon {
+    width: 12mm;
+    height: 12mm;
+    vertical-align: middle;
+}
+
+.footer-row {
+    position: relative; 
+    top: 8mm;
+    right: 6mm;
+}
+.footer-iconcell {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: end;
+}
+
+.precondition-label{
+    position: relative; 
+    bottom: 5mm;
+    left: 5mm;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: bold;
+    font-size: 8pt;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.hero-icon {
+    position: relative; 
+    bottom: 5mm;
+    left: 5mm;
+    vertical-align: middle;
+    margin-left: -2mm;
+}
