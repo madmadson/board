@@ -1,11 +1,18 @@
 rank;avatar;upgradeFrom;name;left-abi1;left-abi2;left-abi3;right-abi1;right-abi2;right-abi3;abi1;abi2;abi3;abi4;abi5;abi6;abi7;abi8;cost1;cost2
-rank1;farm;;Farm;income5;;;;;;;;;;;;;;cost10;
-rank1u;windmill;farm;Windmill;income10;;;;;;;;;;;;;;cost20;
-rank1;portal1;;Portal I;;;;;;;;;;;;;;;cost10;
-rank2;mine;;Mine;income10;income2-1;;;;;;;;;;;;;cost10;
+rank1;wheat1;;Farm1;income1;;;;;;;;;;;;;;cost3;
+rank1u;windmill1;wheat1;Windmill1;income2;;;;;;;;;;;;;;cost5;
+rank2;wheat2;;Farm2;income3;;;;;;;;;;;;;;cost3;
+rank2u;windmill2;wheat2;Windmill2;income4;;;;;;;;;;;;;;cost5;
+rank3;wheat3;;Farm3;income5;;;;;;;;;;;;;;cost3;
+rank3u;windmill3;wheat3;Windmill3;income6;;;;;;;;;;;;;;cost5;
+rank2;mine1;;Mine1;income1;income2-1;;;;;;;;;;;;;cost5;
+rank3;mine2;;Mine2;income2;income2-2;;;;;;;;;;;;;cost5;
 rank2;waterCrystal;;Water Crystalize;incomeWater;;;;;;;;;;;;;;;
 rank2;fireCrystal;;Fire Crystalize;incomeFire;;;;;;;;;;;;;;;
 rank2;earthCrystal;;Earth Crystalize;incomeEarth;;;;;;;;;;;;;;;
 rank2;windCrystal;;Wind Crystalize;incomeWind;;;;;;;;;;;;;;;
 rank2;goldCrystal;;Gold Crystalize;incomeGold;;;;;;;;;;;;;;;
 rank2;deathCrystal;;Death Crystalize;incomeDeath;;;;;;;;;;;;;;;
+rank1;portal1;;Portal 1;;;;;;;;;;;;;;;cost3;cost2-1
+rank2;portal2;;Portal 2;;;;;;;;;;;;;;;cost5;cost2-2
+rank3;portal3;;Portal 3;;;;;;;;;;;;;;;cost8;cost2-3

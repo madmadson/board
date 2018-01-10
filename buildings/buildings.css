@@ -66,10 +66,9 @@
 
 .avatar {
     position: relative; 
-    width: 25mm;
-    height: 25mm;
-    bottom: 12mm;
-    right: 2mm;
+    width: 20mm;
+    height: 20mm;
+    bottom: 10mm;
 }
 
 .upgrade-from {
