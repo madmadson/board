@@ -11,8 +11,7 @@
 
 .name {
     position: relative; 
-    top: 3mm;
-    left: 12mm;
+    top: 8mm;
     width: 40mm;
     font-family: 'Berkshire Swash', cursive;
     font-weight: bold;
@@ -25,33 +24,12 @@
     display: flex;
 }
 
-.offense {
-    position: relative; 
-    top: 5mm;
-    left: 3mm;
-    border: solid black;
-    border-radius: 2mm;
-    width: 13mm;
-    height: 28mm;
-}
-
-.att-iconcell {
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.att-icon {
-    width: 10mm;
-    height: 10mm;
-}
-
 .avatar-wrapper {
     position: relative; 
-    top: 5mm;
-    left: 4mm;
-    width: 26mm;
-    height: 26mm;
+    top: 9mm;
+    left: 10mm;
+    width: 31.5mm;
+    height: 27mm;
     background-color: rgb(10, 136, 37);
     background-image: url(../borders/avatar-border.png);
 }
@@ -60,8 +38,7 @@
     position: relative; 
     width: 12mm;
     height: 12mm;
-    top:1mm;
-    left: 15mm;
+    left: 18mm;
 }
 
 .avatar {
@@ -72,31 +49,37 @@
     right: 2mm;
 }
 
-.upgrade-from {
+.faction {
     position: relative; 
-    width: 12mm;
-    height: 12mm;
-    left: 15mm;
-    bottom: 25mm;
+    width: 8mm;
+    height: 8mm;
+    left: 20mm;
+    bottom: 29mm;
 }
 
-.defense {
+.power {
+    position: relative; 
+    width: 8mm;
+    height: 8mm;
+    left: 11mm;
+    bottom: 22mm;
+}
+
+.attributes {
     position: relative; 
     top: 5mm;
-    left: 5mm;
-    border: solid black;
-    border-radius: 2mm;
+    left: 13mm;
     width: 13mm;
 }
 
-.def-iconcell {
+.attributes-iconcell {
     font-size: 0.6em;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.def-icon {
+.attributes-icon {
     width: 10mm;
     height: 10mm;
 }
@@ -110,39 +93,77 @@
     background-image: url(../borders/abi-border.png);
 }
 
-.abilitys-row{
-    display: flex;
-}
-
-.abi-iconcell {
+.abilitys-heading {
     position: relative; 
-    top: 5mm;
+    top: 2.5mm;
     left: 5mm;
-    font-size: 1em;
+    width: 47mm;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 0.8em;
     font-weight: bold;
-    text-align: start;
+    text-align: center;
 }
 
 .abi-icon {
-    width: 12mm;
-    height: 12mm;
+    width: 4mm;
+    height: 4mm;
     vertical-align: middle;
+}
+
+.abilitys-text {
+    position: relative; 
+    top: 2mm;
+    left: 6mm;
+    width: 47mm;
+    font-family: 'Open Sans', serif;
+    font-style: italic;
+    font-size: 0.6em;
+    line-height: 1.4;
+    text-align: center;
 }
 
 .footer-row {
     position: relative; 
     top: 5mm;
-    right: 8mm;
+    left: 8mm;
+    width: 47mm;
+    display: flex;
+    justify-content: space-between
 }
-.footer-iconcell {
+.upgrade-cost-iconcell {
     font-size: 1em;
-    font-weight: bold;
-    text-align: end;
 }
 
-.footer-icon {
+.upgrade-icon {
+    position: relative;
+    bottom: 5mm;
+    right: 2mm;
+    width: 5mm;
+    height: 5mm;
+}
+
+.upgrade-cost-icon {
     width: 10mm;
     height: 10mm;
-    vertical-align: middle;
+    margin-left: -2mm;
+}
+
+.power-iconcell {
+    font-size: 1em;
+}
+
+.power-icon {
+    width: 10mm;
+    height: 10mm;
+    margin-left: -2mm;
+}
+
+.cost-iconcell {
+    font-size: 1em;
+}
+
+.cost-icon {
+    width: 10mm;
+    height: 10mm;
     margin-left: -2mm;
 }

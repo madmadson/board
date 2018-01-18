@@ -12,9 +12,11 @@
         <div class="mini-card-name">{{name}}</div>
 
         <div class="abi-wrapper">
+                {{#text}}
+                <div class="fluff-text">{{text}}</div>
+              {{/text}}
                 <div class="abi-row">
-                        {{#text}}
-                        {{/text}}
+                       
                         {{#abi1}}
                         <div class="abi-iconcell">
                             <img class="abi-icon" src="../icons/{{abi1}}.png">
@@ -27,13 +29,18 @@
                     </div>
         </div>
         <div class="footer-row">
-            <div class="footer-iconcell">
+            <div class="condition-block">
                 {{#precondition}}
                     <span class="precondition-label">{{precondition}}</span>
                 {{/precondition}}
                 {{#hero}}
                     <img class="hero-icon" src="../hero_images/{{hero}}.png">
                 {{/hero}}   
+            </div>
+            <div class="cost-iconcell">
+                {{#cost}}
+                <img class="cost-icon" src="../icons/{{cost}}.png"> 
+                {{/cost}}
             </div>
         </div> 
     </div>

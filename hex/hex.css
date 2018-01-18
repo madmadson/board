@@ -1,0 +1,52 @@
+
+/* hex "card" */
+.card {
+    margin: 0.5mm;
+    border-style: none;
+    border-width: 0.8mm;
+    border-color: #000000;
+    border-radius: 30mm;
+    width: 40mm;
+    height: 40mm;
+}
+
+.outerclip {
+    -webkit-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);
+    -transform: skew(-30deg);
+    overflow: hidden;
+    display: inline-block;
+}
+.innerclip {
+    -webkit-transform: skew(50deg);
+    -ms-transform: skew(50deg);
+    transform: skew(50deg);
+    overflow: hidden;
+    display: inline-block;
+}
+.terrain-img {
+    -webkit-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);
+    transform: skew(-30deg);
+    width: 40mm;
+}
+
+.token-wrapper {
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.token-circle {
+    position: relative;
+    border-style: solid;
+    border-width: 1mm;
+    border-color: #000000;
+    border-radius: 30mm;
+    width: 30mm;
+    height: 30mm;
+    bottom: 43mm;
+    left: 0.5mm;
+}

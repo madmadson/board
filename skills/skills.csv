@@ -1,9 +1,10 @@
-name;text;abi1;abi2;abi3;abi4;abi5;abi6;hero;precondition
-Inspiration;;inspire2;;;;;;gylphor;
-Battlemage;;leadPlus2;;;;;;gylphor;
-Lord Commander;;leadPlus1;;;;;;gylphor;
-Necromnacer 2;;leadPlus2;;;;;;gylphor;Battlemage
-Logistic 1;;leadPlus1;;;;;;gylphor;Lord Commander
-Logistic 2;;leadPlus2;;;;;;gylphor;
-Fighter 1;;leadPlus1;;;;;;gylphor;
-Fighter 2;;leadPlus2;;;;;;gylphor;
+name;text;abi1;abi2;abi3;abi4;abi5;abi6;hero;precondition;cost
+Inspiration;FLUFF TEXT GOES IN HERE;inspire1;;;;;;gylphor;;expcost1
+Battlemage;FLUFF TEXT GOES IN HERE;leadPlus2;;;;;;gylphor;;
+Commander;FLUFF TEXT GOES IN HERE;leadPlus1;;;;;;gylphor;;
+Inspiration;FLUFF TEXT GOES IN HERE;leadPlus2;;;;;;gylphor;Battlemage;expcost2
+Logistic 1;FLUFF TEXT GOES IN HERE;leadPlus1;;;;;;gylphor;Commander;expcost2
+Logistic 2;FLUFF TEXT GOES IN HERE;leadPlus2;;;;;;gylphor;;
+Fighter 1;FLUFF TEXT GOES IN HERE;leadPlus1;;;;;;gylphor;;
+Fighter 2;FLUFF TEXT GOES IN HERE;leadPlus2;;;;;;gylphor;;
+    ;;;;;;;;;;

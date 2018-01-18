@@ -35,6 +35,15 @@
     justify-content: center;
 }
 
+.fluff-text {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6em;
+    width: 25mm;
+    top: 5mm;
+    left: 5mm;
+}
+
 .abi-iconcell {
     position: relative; 
     top: 5mm;
@@ -50,14 +59,15 @@
 }
 
 .footer-row {
-    position: relative; 
+    position: relative;
     top: 8mm;
-    right: 6mm;
+    display: flex;
+    justify-content: space-between;
 }
-.footer-iconcell {
+
+.condition-block {
     font-size: 1em;
     font-weight: bold;
-    text-align: end;
 }
 
 .precondition-label{
@@ -77,4 +87,16 @@
     left: 5mm;
     vertical-align: middle;
     margin-left: -2mm;
+}
+
+.cost-iconcell {
+    text-align: end;
+
+}
+
+.cost-icon {
+    position: relative; 
+    right: 5mm;
+    width: 10mm;
+    height: 10mm;
 }

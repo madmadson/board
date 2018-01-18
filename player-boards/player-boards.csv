@@ -1,0 +1,18 @@
+rank;avatar;upgradeFrom;name;att-abi1;att-abi2;att-abi3;def-abi1;def-abi2;def-abi3;abi1;abi2;abi3;abi4;abi5;abi6;abi7;abi8;cost1;cost2;power
+rank1;archer;;Archer;mellee1;range3;siege0;life2;armour0;resistence0;;;;;;;;;cost2;;power1
+rank1u;marksman;archer;Marksman;range4;;;life2;armour0;resistence0;;;;;;;;;cost2;cost2-1;power1
+rank1;fighter;;Fighter;mellee3;range0;siege0;life2;armour0;resistence0;;;;;;;;;cost2;;power1
+rank1u;protector;fighter;Protector;mellee4;range0;siege0;life3;armour0;resistence0;;;;;;;;;cost2;cost2-1;power1
+rank2;scout;;Scout;mellee2;range4;siege0;life3;armour0;resistence0;;;;;;;;;cost4;cost2-1;power2
+rank2u;ranger;scout;Ranger;mellee2;range5;siege0;life3;armour0;resistence0;;;;;;;;;cost4;cost2-1;power2
+rank2;druid;;Druid;mellee1;range0;siege1;life2;armour0;resistence0;heal1;magic;;;;;;;cost4;cost2-2;power2
+rank2u;shyde;;Faerie;mellee1;range0;siege2;life6;armour0;resistence0;heal2;magic;;;;;;;cost4;cost2-2;power2
+rank3;unicorn;;Unicorn;mellee6;range0;siege;life8;armour1;resistence3;heal1;magic;;;;;;;cost6;cost2-3;power3
+rank3u;silver-unicorn;unicorn;Silver Unicorn;mellee6;range0;siege;life5;armour1;resistence3;heal1;magic;;;;;;;cost6;cost2-3;power3
+rank3;treeman;;Treeman;mellee5;range0;siege1;life6;armour3;resistence3;slow;flammable;;;;;;;cost10;cost2-2;power3
+rank3u;elder-tree;treeman;Elder Tree;mellee5;range0;siege2;life10;armour3;resistence3;slow;flammable;;;;;;;cost10;cost2-2;power3
+rank4;green-dragon;;Green Dragon;mellee8;range0;siege5;life10;armour2;resistence2;;;;;;;;;cost10;Cost2-5;power4
+rank4u;gold-dragon;green-dragon;Gold Dragon;mellee8;range0;siege5;life10;armour2;resistence2;;;;;;;;;cost10;Cost2-5;power4
+rankHero;gylphor;;Gylphor;mellee3;range0;siege0;life4;armour2;resistence1;lead4;;;;;;;;;;power3
+rankHero;sylvana;;Sylvana;mellee2;range0;siege2;life3;armour0;resistence2;lead3;heal1;magic;;;;;;;;power3
+rankHero;lydor;;Lydor;mellee4;range0;siege0;life3;armour1;resistence1;lead3;fast;;;;;;;;;power4
