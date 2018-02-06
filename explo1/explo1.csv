@@ -1,0 +1,22 @@
+rank;avatar;faction;name;speed;attack;hitpoints;power;abi1;abi1-heading;abi1-text;abi2;abi2-heading;abi2-text;abi3;abi3-heading;abi3-text;reward1;altreward1;reward2
+rank1;peasant;facHumans;Peasant;speed3;attack1;life1;power0;;;;;;;;;;;;
+rank1;peasant;facHumans;Peasant;speed3;attack1;life1;power0;;;;;;;;;;;;
+rank1;bowman;facHumans;Bowman;speed3;attack2;attack2;power1;range;Range;Ignore Guard-Ability;;;;;;;;;
+rank1;bowman;facHumans;Bowman;speed3;attack2;attack2;power1;range;Range;Ignore Guard-Ability;;;;;;;;;
+rank1;bandit;facVillains;Bandit;speed3;attack2;life3;power1;steal2;Steal 2;An attack also steal 2 money;;;;;;;income2;incomeExp1;
+rank1;bandit;facVillains;Bandit;speed3;attack2;life3;power1;steal2;Steal 2;An attack also steal 2 money;;;;;;;income2;incomeExp1;
+rank1;robber;facVillains;Bandit;speed3;attack2;life3;power2;steal1;Steal 1;An attack also steal 1 money;range;Range;Ignore Guard-Ability;;;;income2;incomeExp1;
+rank1;robber;facVillains;Bandit;speed3;attack2;life3;power2;steal1;Steal 1;An attack also steal 1 money;range;Range;Ignore Guard-Ability;;;;income2;incomeExp1;
+rank1u;banditLeader;facVillains;Bandit Leader;speed4;attack4;life4;power3;steal2;Steal 2;An attack also steal 2 money;range;Range;Ignore Guard-Ability;;;;income4;incomeExp2;
+rank1;goblin;facWildOrcs;Goblin;speed3;attack2;life2;power1;;;;;;;;;;income1;;
+rank1;goblin;facWildOrcs;Goblin;speed3;attack2;life2;power1;;;;;;;;;;income1;;
+rank1;orc;facWildOrcs;Orc;speed3;attack4;life3;power2;enrage;Enrage;Attack +1 when wounded;;;;;;;income2;incomeExp1;
+rank1;orc;facWildOrcs;Orc;speed3;attack4;life3;power2;enrage;Enrage;Attack +1 when wounded;;;;;;;income2;incomeExp1;
+rank1;orcDefender;facWildOrcs;Orc Defender;speed3;attack2;life4;power2;armour1;Armour 1;Reduce 1 incoming damage ;guard;Guard;Wounded this unit first;;;;income2;incomeExp1;
+rank1;orcDefender;facWildOrcs;Orc Defender;speed3;attack2;life4;power2;armour1;Armour 1;Reduce 1 incoming damage ;guard;Guard;Wounded this unit first;;;;income2;incomeExp1;
+rank1u;orcLeader;facWildOrcs;Orc Leader;speed3;attack4;life4;power3;armour1;Armour 1;Reduce 1 incoming damage ;guard;Guard;Wounded this unit first;enrage;Enrage;Attack +1 when wounded;income4;incomeExp2;
+rank1;snowElvSpearman;facSnowElves;Snow Defender;speed4;attack3;life2;power2;armour1;Armour 1;Reduce 1 incoming damage ;guard;Guard;Wounded this unit first;;;;income2;incomeExp1;
+rank1;snowElvSpearman;facSnowElves;Snow Defender;speed4;attack3;life2;power2;armour1;Armour 1;Reduce 1 incoming damage ;guard;Guard;Wounded this unit first;;;;income2;incomeExp1;
+rank1;snowElvArcher;facSnowElves;Snow Archer;speed4;attack2;life3;power2;range;Range;Ignore Guard-Ability;;;;;;;income2;incomeExp1;
+rank1;snowElvArcher;facSnowElves;Snow Archer;speed4;attack2;life3;power2;range;Range;Ignore Guard-Ability;;;;;;;income2;incomeExp1;
+rank1u;snowElvLeader;facSnowElves;Snow Leader;speed4;attack4;life3;power3;iceBolt;2x IceBolt (<b>Magic</b>);You can <b>twice</b> do 3 dmg to one enemy and it cant act one turn;;;;;;;income4;incomeExp2;incomeWaterMana1

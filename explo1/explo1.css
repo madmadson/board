@@ -12,7 +12,7 @@
 .name {
     position: relative; 
     top: 8mm;
-    width: 40mm;
+    width: 50mm;
     font-family: 'Berkshire Swash', cursive;
     font-weight: bold;
     font-size: 16pt;
@@ -30,7 +30,7 @@
     left: 10mm;
     width: 31.5mm;
     height: 27mm;
-    background-color: rgb(10, 136, 37);
+    background-color: gray;
     background-image: url(../borders/avatar-border.png);
 }
 
@@ -54,7 +54,7 @@
     width: 8mm;
     height: 8mm;
     left: 20mm;
-    bottom: 28mm;
+    bottom: 30mm;
 }
 
 .power {
@@ -62,7 +62,7 @@
     width: 8mm;
     height: 8mm;
     left: 11mm;
-    bottom: 21mm;
+    bottom: 22mm;
 }
 
 .attributes {
@@ -95,7 +95,7 @@
 
 .abilitys-heading {
     position: relative; 
-    top: 2.5mm;
+    top: 3mm;
     left: 5mm;
     width: 47mm;
     font-family: 'Berkshire Swash', cursive;
@@ -124,23 +124,12 @@
 
 .footer-row {
     position: relative; 
-    top: 6mm;
+    top: 5mm;
     left: 8mm;
     width: 47mm;
     display: flex;
     justify-content: space-between
 }
-
-.cost-iconcell {
-    font-size: 1em;
-}
-
-.cost-icon {
-    width: 8mm;
-    height: 8mm;
-    margin-left: -2mm;
-}
-
 .upgrade-cost-iconcell {
     font-size: 1em;
 }
@@ -148,13 +137,43 @@
 .upgrade-icon {
     position: relative;
     bottom: 5mm;
-    left: 2mm;
+    right: 2mm;
     width: 5mm;
     height: 5mm;
 }
 
 .upgrade-cost-icon {
-    width: 8mm;
-    height: 8mm;
+    width: 10mm;
+    height: 10mm;
+    margin-left: -2mm;
+}
+
+.power-iconcell {
+    font-size: 1em;
+}
+
+.power-icon {
+    width: 10mm;
+    height: 10mm;
+    margin-left: -2mm;
+}
+
+.reward-iconcell {
+    font-size: 1em;
+}
+
+.or-separtion {
+     position: relative; 
+     bottom: 2mm;
+     font-size: 2em;
+     font-weight: bold;
+     font-family: 'Berkshire Swash', cursive;
+     text-align: center;
+     margin-right: 1mm;
+}
+
+.reward-icon {
+    width: 10mm;
+    height: 10mm;
     margin-left: -2mm;
 }

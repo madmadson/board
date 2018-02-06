@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
-    <link rel="stylesheet" type="text/css" href="elves.css">
+    <link rel="stylesheet" type="text/css" href="explo1.css">
 </head>
 
 <body>
@@ -14,7 +14,7 @@
 
             <div class="avatar-wrapper">
                 <img class="rank" src="../icons/{{rank}}.png"></img>
-                <img class="avatar" src="../unit_images/elves/{{avatar}}.png"></img>
+                <img class="avatar" src="{{avatar}}.png"></img>
                 {{#faction}}
                 <img class="faction" src="../icons/{{faction}}.png"></img>
                 {{/faction}}
@@ -66,22 +66,17 @@
             {{/abi3}}
         </div>
         <div class="footer-row">
-            
-            <div class="cost-iconcell">
-                {{#cost1}}
-                <img class="cost-icon" src="../icons/{{cost1}}.png"> {{/cost1}} {{#cost2}}
-                <img class="cost-icon" src="../icons/{{cost2}}.png"> {{/cost2}}  {{#cost3}}
-                <img class="cost-icon" src="../icons/{{cost3}}.png"> {{/cost3}}
+            <div class="reward-iconcell">
+                {{#reward1}}
+                <img class="reward-icon" src="../icons/{{reward1}}.png"> 
+                {{#altreward1}}
+                <span class="or-separtion">/</span>
+                <img class="reward-icon" src="../icons/{{altreward1}}.png"> {{/altreward1}}
+                {{/reward1}}
             </div>
-
-            <div class="upgrade-cost-iconcell">
-               {{#upgrade-cost1}}
-               <img class="upgrade-icon" src="../icons/upgrade.png">
-                <img class="upgrade-cost-icon" src="../icons/{{upgrade-cost1}}.png">
-                 {{/upgrade-cost1}}
-                {{#upgrade-cost2}}
-                <img class="upgrade-cost-icon" src="../icons/{{upgrade-cost2}}.png">
-                {{/upgrade-cost2}} 
+            <div class="reward-iconcell">
+                {{#reward2}}
+                <img class="reward-icon" src="../icons/{{reward2}}.png"> {{/reward2}}
             </div>
         </div>
         <!-- YOUR CUSTOM CODE ENDS HERE -->

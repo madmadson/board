@@ -1,18 +1,18 @@
-rank;avatar;faction;name;speed;attack;hitpoints;abi1;abi1-heading;abi1-text;abi2;abi2-heading;abi2-text;abi3;abi3-heading;abi3-text;power;cost1;cost2;upgrade-cost1;upgrade-cost2
-rank1;archer;elves-icon;Archer;speed4;attack3;life2;range;Range;Ignore Guard-Ability;;;;;;;power3;cost3;;cost3;
-rank1u;marksman;elves-icon;Marksman;speed4;attack3;life2;range;Range;Ignore Guard-Ability;pierce1;Armour Pierce 1;Ignore 1 armour of enemy;;;;power4;;;;
-rank1;fighter;elves-icon;Fighter;speed4;attack3;life2;armour1;Armour 1;Reduce 1 incoming damage ;;;;;;;power2;cost2;;cost3;
-rank1u;protector;elves-icon;Protector;speed4;attack3;life3;armour2;Armour 2;Reduce 2 incoming damage ;;;;;;;power3;;;;
-rank2;scout;elves-icon;Scout;speed4;attack4;life3;range;Range;Ignore Guard-Ability;pierce1;1x Scout;You can <b>once</b> look at 1 card during exploration;;;;power3;cost5;;;
-rank2u;ranger;elves-icon;Ranger;speed4;attack5;life4;range;Range;Ignore Guard-Ability;pierce1;1x Scout;You can <b>once</b> look at 1 card during exploration;pierce1;Armour Pierce 1;Ignore 1 armour of enemy;power4;cost5;;;
-rank2;druid;elves-icon;Druid;speed2;attack2;life3;heal1;Heal 1;Heal one unit 1 damage;thorn;1x Thorn (<b>Magic</b>);You can <b>once</b> do 3 dmg to one enemy and it cant act one turn;;;;power3;cost5;;;
-rank2u;shyde;elves-icon;Faerie;speed2;attack2;life3;heal2;Heal 2;Heal one unit 2 damage;thorn;1x Thorn (<b>Magic</b>);You can <b>once</b> do 3 dmg to one enemy and it cant act one turn;;;;power4;cost5;;;
-rank3;unicorn;elves-icon;Unicorn;speed5;attack6;life5;;;;;;;;;;power3;cost6;cost2-3;;
-rank3u;silver-unicorn;elves-icon;Silver Unicorn;speed5;attack7;life5;;;;;;;;;;power3;cost6;cost2-3;;
-rank3;treeman;elves-icon;Treeman;speed2;attack3;life2;;;;;;;;;;power3;cost10;cost2-2;;
-rank3u;elder-tree;elves-icon;Elder Tree;speed2;attack3;life2;;;;;;;;;;power3;cost10;cost2-2;;
-rank4;green-dragon;elves-icon;Green Dragon;speed2;attack3;life2;;;;;;;;;;power4;cost10;Cost2-5;;
-rank4u;gold-dragon;elves-icon;Gold Dragon;speed2;attack3;life2;;;;;;;;;;power4;cost10;Cost2-5;;
-rankHero;gylphor;elves-icon;Gylphor;speed2;attack3;life2;;;;;;;;;;power3;;;;
-rankHero;sylvana;elves-icon;Sylvana;speed2;attack3;life2;;;;;;;;;;power3;;;;
-rankHero;lydor;elves-icon;Lydor;speed2;attack3;life2;;;;;;;;;;power4;;;;
+rank;avatar;faction;name;speed;attack;hitpoints;power;abi1;abi1-heading;abi1-text;abi2;abi2-heading;abi2-text;abi3;abi3-heading;abi3-text;cost1;cost2;upgrade-cost1;upgrade-cost2
+rank1;archer;facElves;Archer;speed2;attack3;life2;power3;range;Range;Ignore Guard-Ability;;;;;;;cost3;;cost3;
+rank1u;marksman;facElves;Marksman;speed2;attack4;life2;power4;range;Range;Ignore Guard-Ability;;;;;;;;;;
+rank1;fighter;facElves;Fighter;speed2;attack2;life2;power2;armour1;Armour 1;Reduce 1 incoming damage ;guard;Guard;Wound this unit first;;;;cost2;;cost3;
+rank1u;protector;facElves;Protector;speed3;attack3;life3;power3;armour2;Armour 2;Reduce 2 incoming damage ;guard;Guard;Wound this unit first;;;;;;;
+rank2;scout;facElves;Scout;speed2;attack3;life3;power3;range;Range;Ignore Guard-Ability;scout;<b>1x</b> Scout;You can <b>once</b> look at 1 card during exploration;;;;cost5;;cost3;
+rank2u;ranger;facElves;Ranger;speed2;attack4;life4;power4;range;Range;Ignore Guard-Ability;scout;<b>1x</b> Scout;You can <b>once</b> look at 1 card during exploration;;;;;;;
+rank2;druid;facElves;Druid;speed4;attack2;life3;power3;heal1;Heal 1;Heal one unit 1 damage;thorn;<b>1x</b> Thorn (<b>Magic</b>);You can <b>once</b> do 3 dmg to one enemy and it cant act one turn;;;;cost5;;cost3;
+rank2u;shyde;facElves;Faerie;speed4;attack2;life5;power4;heal2;Heal 2;Heal one unit 2 damage;thorn;<b>1x</b> Thorn (<b>Magic</b>);You can <b>once</b> do 3 dmg to one enemy and it cant act one turn;;;;;;;
+rank3;unicorn;facElves;Unicorn;speed1;attack6;life5;power3;heal1;Heal 1;Heal one unit 1 damage;resistence2;Magic Resistence 2;Reduce 2 incoming <b>Magic</b> damage  ;;;;cost10;cost2-1;costRandomMana1;
+rank3u;silver-unicorn;facElves;Silver Unicorn;speed1;attack7;life5;power3;heal2;Heal 2;Heal one unit 2 damage;resistence2;Magic Resistence 2;Reduce 2 incoming <b>Magic</b> damage  ;;;;;;;
+rank3;treeman;facElves;Treeman;speed5;attack3;life8;power3;armour2;Armour 2;Reduce 2 incoming damage ;resistence2;Magic Resistence 2;Reduce 2 incoming <b>Magic</b> damage  ;;;;cost10;cost2-2;cost5;cost2-2
+rank3u;elder-tree;facElves;Elder Tree;speed5;attack5;life8;power3;armour2;Armour 2;Reduce 2 incoming damage ;resistence2;Magic Resistence 2;Reduce 2 incoming <b>Magic</b> damage  ;;;;;;;
+rank4;green-dragon;facElves;Green Dragon;speed5;attack8;life8;power4;;;;;;;;;;cost20;Cost2-5;costRandomMana3;
+rank4u;gold-dragon;facElves;Gold Dragon;speed4;attack10;life10;power4;;;;;;;;;;;;;
+rankHero;gylphor;facElves;Gylphor;speed2;attack3;life2;power3;;;;;;;;;;;;;
+rankHero;sylvana;facElves;Sylvana;speed4;attack3;life2;power3;;;;;;;;;;;;;
+rankHero;lydor;facElves;Lydor;speed2;attack3;life2;power4;;;;;;;;;;;;;
